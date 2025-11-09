@@ -1,0 +1,11 @@
+[project]
+name = "scan"
+version = "0.1.0"
+description = "An LLM-powered tool that scans the last N commits of a Git repository for secrets and other sensitive data."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.3.0",
+    "gitpython>=3.1.45",
+    "google-genai>=1.49.0",
+]
